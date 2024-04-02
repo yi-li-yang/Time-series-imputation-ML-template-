@@ -40,7 +40,7 @@ See also
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <time_series_imputation_ml>` or `$ time_series_imputation_ml` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -51,33 +51,33 @@ See also
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# project_name
+# time_series_imputation_ml
 
-[![codecov](https://codecov.io/gh/author_name/project_urlname/branch/main/graph/badge.svg?token=project_urlname_token_here)](https://codecov.io/gh/author_name/project_urlname)
-[![CI](https://github.com/author_name/project_urlname/actions/workflows/main.yml/badge.svg)](https://github.com/author_name/project_urlname/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/yi-li-yang/Time-series-imputation-ML/branch/main/graph/badge.svg?token=Time-series-imputation-ML_token_here)](https://codecov.io/gh/yi-li-yang/Time-series-imputation-ML)
+[![CI](https://github.com/yi-li-yang/Time-series-imputation-ML/actions/workflows/main.yml/badge.svg)](https://github.com/yi-li-yang/Time-series-imputation-ML/actions/workflows/main.yml)
 
-project_description
+Awesome time_series_imputation_ml created by yi-li-yang
 
 ## Install it from PyPI
 
 ```bash
-pip install project_name
+pip install time_series_imputation_ml
 ```
 
 ## Usage
 
 ```py
-from project_name import BaseClass
-from project_name import base_function
+from time_series_imputation_ml import BaseClass
+from time_series_imputation_ml import base_function
 
 BaseClass().base_method()
 base_function()
 ```
 
 ```bash
-$ python -m project_name
+$ python -m time_series_imputation_ml
 #or
-$ project_name
+$ time_series_imputation_ml
 ```
 
 ## Development
